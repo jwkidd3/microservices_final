@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	inventoryService "github.com/KernelGamut32/golang-ms-build/inventory/internal/inventory/service"
 	"github.com/gorilla/mux"
+	inventoryService "github.com/microservices_final/jwkidd3/inventory/internal/inventory/service"
 )
 
 func Handlers() *mux.Router {

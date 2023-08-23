@@ -1,4 +1,4 @@
-module github.com/KernelGamut32/golang-ms-build/orders
+module github.com/microservices_final/jwkidd3/orders
 
 go 1.18
 

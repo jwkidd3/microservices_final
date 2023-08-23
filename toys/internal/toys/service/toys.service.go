@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/KernelGamut32/golang-ms-build/toys/internal/inventory"
-	"github.com/KernelGamut32/golang-ms-build/toys/internal/toys"
 	"github.com/gorilla/mux"
+	"github.com/microservices_final/jwkidd3/toys/internal/inventory"
+	"github.com/microservices_final/jwkidd3/toys/internal/toys"
 	"github.com/spf13/viper"
 )
 

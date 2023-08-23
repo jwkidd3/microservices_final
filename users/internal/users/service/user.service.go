@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/KernelGamut32/golang-ms-build/users/internal/users"
-	"github.com/KernelGamut32/golang-ms-build/users/internal/users/auth"
+	"github.com/microservices_final/jwkidd3/users/internal/users"
+	"github.com/microservices_final/jwkidd3/users/internal/users/auth"
 )
 
 var usersService *UsersService

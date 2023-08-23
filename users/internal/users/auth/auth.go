@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/KernelGamut32/golang-ms-build/users/internal/users"
 	jwt "github.com/golang-jwt/jwt"
+	"github.com/microservices_final/jwkidd3/users/internal/users"
 )
 
 type JwtAuthenticator struct{}

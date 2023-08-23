@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/KernelGamut32/golang-ms-build/users/internal/users"
-	database "github.com/KernelGamut32/golang-ms-build/users/internal/db"
+	database "github.com/microservices_final/jwkidd3/users/internal/db"
+	"github.com/microservices_final/jwkidd3/users/internal/users"
 
 	"golang.org/x/crypto/bcrypt"
 )

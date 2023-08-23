@@ -3,9 +3,9 @@ package routes
 import (
 	"net/http"
 
-	"github.com/KernelGamut32/golang-ms-build/users/internal/users/auth"
-	usersService "github.com/KernelGamut32/golang-ms-build/users/internal/users/service"
 	"github.com/gorilla/mux"
+	"github.com/microservices_final/jwkidd3/users/internal/users/auth"
+	usersService "github.com/microservices_final/jwkidd3/users/internal/users/service"
 )
 
 func Handlers() *mux.Router {

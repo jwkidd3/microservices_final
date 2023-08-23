@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	database "github.com/KernelGamut32/golang-ms-build/inventory/internal/db"
-	"github.com/KernelGamut32/golang-ms-build/inventory/internal/inventory"
+	database "github.com/microservices_final/jwkidd3/inventory/internal/db"
+	"github.com/microservices_final/jwkidd3/inventory/internal/inventory"
 )
 
 type InventoryDB struct {
