@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/microservices_final/jwkidd3/inventory/internal/inventory"
+	"github.com/jwkidd3/microservices_final//inventory/internal/inventory"
 	"github.com/spf13/viper"
 )
 
