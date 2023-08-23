@@ -18,7 +18,7 @@ spec:
     - port: 5050
   selector:
     app: users-svc
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -36,7 +36,7 @@ spec:
         app: users-svc
     spec:
       containers:
-      - image: gamuttechsvcsllc/users-svc:3.0
+      - image: jwkidd3/users
         name: users-svc
         resources:
           limits:

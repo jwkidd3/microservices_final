@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/jwkidd3/microservices_final/toys/internal/toys/auth"
+	//	"github.com/jwkidd3/microservices_final/toys/internal/toys/auth"
 	toysService "github.com/jwkidd3/microservices_final/toys/internal/toys/service"
 )
 
@@ -14,10 +14,10 @@ func Handlers() *mux.Router {
 	r.Use(CommonMiddleware)
 
 	ts := toysService.Get()
-	av := auth.GetAuthVerifier()
+	//av := auth.GetAuthVerifier()
 
 	s := r.PathPrefix("/auth").Subrouter()
-	s.Use(av.VerifyAuth)
+	//	s.Use(av.VerifyAuth)
 	s.HandleFunc("/toys", ts.GetAllToys).Methods("GET")
 	s.HandleFunc("/toys/{id}", ts.GetToy).Methods("GET")
 	s.HandleFunc("/toys", ts.CreateToy).Methods("POST")

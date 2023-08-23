@@ -19,7 +19,7 @@ spec:
     - port: 5100
   selector:
     app: inventory-svc
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -37,7 +37,7 @@ spec:
         app: inventory-svc
     spec:
       containers:
-      - image: gamuttechsvcsllc/inventory-svc:2.0
+      - image: jwkidd3/inventory
         name: inventory-svc
         resources:
           limits:

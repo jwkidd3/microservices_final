@@ -3,9 +3,9 @@ sudo apt-get -y upgrade
 
 sudo rm /usr/bin/go
 
-wget https://dl.google.com/go/go1.20.5.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.21.0.linux-amd64.tar.gz
 
-sudo tar -xvf go1.20.5.linux-amd64.tar.gz   
+sudo tar -xvf go1.21.0.linux-amd64.tar.gz  
 
 sudo mv go /usr/local  
 

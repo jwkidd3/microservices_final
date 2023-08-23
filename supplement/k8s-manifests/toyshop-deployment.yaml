@@ -20,7 +20,7 @@ spec:
     - port: 5000
   selector:
     app: toyshop-svc
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -38,7 +38,7 @@ spec:
         app: toyshop-svc
     spec:
       containers:
-      - image: gamuttechsvcsllc/toyshop-svc:2.0
+      - image: jwkidd3/toys
         name: toyshop-svc
         resources:
           limits:
