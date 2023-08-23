@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	inventoryService "github.com/jwkidd3/microservices_final//inventory/internal/inventory/service"
+	inventoryService "github.com/jwkidd3/microservices_final/inventory/internal/inventory/service"
 )
 
 func Handlers() *mux.Router {

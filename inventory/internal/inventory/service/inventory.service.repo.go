@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	database "github.com/jwkidd3/microservices_final//inventory/internal/db"
-	"github.com/jwkidd3/microservices_final//inventory/internal/inventory"
+	database "github.com/jwkidd3/microservices_final/inventory/internal/db"
+	"github.com/jwkidd3/microservices_final/inventory/internal/inventory"
 )
 
 type InventoryDB struct {
