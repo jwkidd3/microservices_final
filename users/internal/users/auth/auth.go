@@ -11,7 +11,7 @@ import (
 	"time"
 
 	jwt "github.com/golang-jwt/jwt"
-	"github.com/microservices_final/jwkidd3/users/internal/users"
+	"github.com/jwkidd3/microservices_final/users/internal/users"
 )
 
 type JwtAuthenticator struct{}

@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	database "github.com/microservices_final/jwkidd3/toys/internal/db"
-	"github.com/microservices_final/jwkidd3/toys/internal/toys"
+	database "github.com/jwkidd3/microservices_final/toys/internal/db"
+	"github.com/jwkidd3/microservices_final/toys/internal/toys"
 )
 
 type ToysDB struct {

@@ -1,4 +1,4 @@
-module github.com/microservices_final/jwkidd3/orders
+module github.com/jwkidd3/microservices_final/orders
 
 go 1.18
 

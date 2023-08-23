@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/microservices_final/jwkidd3/toys/internal/routes"
+	"github.com/jwkidd3/microservices_final/toys/internal/routes"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/microservices_final/jwkidd3/toys/internal/toys/auth"
-	toysService "github.com/microservices_final/jwkidd3/toys/internal/toys/service"
+	"github.com/jwkidd3/microservices_final/toys/internal/toys/auth"
+	toysService "github.com/jwkidd3/microservices_final/toys/internal/toys/service"
 )
 
 func Handlers() *mux.Router {

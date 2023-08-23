@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	database "github.com/microservices_final/jwkidd3/users/internal/db"
-	"github.com/microservices_final/jwkidd3/users/internal/users"
+	database "github.com/jwkidd3/microservices_final/users/internal/db"
+	"github.com/jwkidd3/microservices_final/users/internal/users"
 
 	"golang.org/x/crypto/bcrypt"
 )

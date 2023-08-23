@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/microservices_final/jwkidd3/users/internal/users/auth"
-	usersService "github.com/microservices_final/jwkidd3/users/internal/users/service"
+	"github.com/jwkidd3/microservices_final/users/internal/users/auth"
+	usersService "github.com/jwkidd3/microservices_final/users/internal/users/service"
 )
 
 func Handlers() *mux.Router {

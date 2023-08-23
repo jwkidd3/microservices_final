@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/microservices_final/jwkidd3/users/internal/users"
-	"github.com/microservices_final/jwkidd3/users/internal/users/auth"
+	"github.com/jwkidd3/microservices_final/users/internal/users"
+	"github.com/jwkidd3/microservices_final/users/internal/users/auth"
 )
 
 var usersService *UsersService

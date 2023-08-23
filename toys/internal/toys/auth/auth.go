@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/microservices_final/jwkidd3/toys/internal/users"
+	"github.com/jwkidd3/microservices_final/toys/internal/users"
 	"github.com/spf13/viper"
 )
 
